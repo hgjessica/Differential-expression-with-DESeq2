@@ -1,6 +1,6 @@
 # Differential expression with DESeq2 (Salmon input)
 
-One R notebook, `DESeq2_analysis.ipynb`: Salmon `quant.sf` files → gene-level counts (tximport) →
+`DESeq2_analysis.ipynb`: Salmon `quant.sf` files → gene-level counts (tximport) →
 DESeq2 → PCA, results table with gene symbols, volcano plots. It is a generic version of two
 near-identical per-dataset notebooks; all dataset-specific values are set in one **Parameters** cell.
 
